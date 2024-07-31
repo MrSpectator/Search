@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced search</title>
+        <link rel="stylesheet" href="advanced.css">
+    </head>
+    <body>
+        <div class="link">
+            <a href="index.html">Back To Search</a>
+        </div>
+        <form action="https://www.google.com/search">
+            <div>
+                <label>all these words: </label>
+                <input class="abc" type="text" name="as_q">
+                Type the important words: tri-coulor rat-terrier
+            </div>
+            
+            <div>
+                <label>this exact words or phrase: </label>
+                <input class="abc" type="text" name="as_epq">
+                Put exact words in quotes: "rat terrier"
+            </div>
+            <div>
+                <label>any of these words: </label>
+                <input class="abc" type="text" name="as_oq">
+                Type OR between all the words you want: miniature OR standard
+            </div>
+            <div>
+                <label>none of these words: </label>
+                <input class="abc" type="text" name="as_eq">
+                Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+            </div>
+            <div>
+                <label>numbers ranging from: </label>
+                <input class="abc" type="text" name="as_nlo">
+                <label> to </label>
+                <input class="abc" type="text" name="as_nhi">
+                Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011
+            </div>
+            <div>
+                <input type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </body>
+</html>
